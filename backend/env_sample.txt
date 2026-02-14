@@ -1,0 +1,15 @@
+# HRMS Lite Backend Configuration
+# Copy this file to .env and update the values
+
+# MongoDB Atlas Connection String
+# Get this from: https://cloud.mongodb.com
+# Format: mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<database>?retryWrites=true&w=majority
+MONGODB_URL=mongodb+srv://your-username:your-password@cluster0.xxxxx.mongodb.net/hrms_lite?retryWrites=true&w=majority
+
+# Database name
+DATABASE_NAME=hrms_lite
+
+# Debug mode (set to false in production)
+DEBUG=true
+
+
